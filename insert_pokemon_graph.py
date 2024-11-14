@@ -2,9 +2,9 @@ from neo4j import GraphDatabase
 import json
 
 # Conexão com o Neo4j
-uri = "neo4j+s://3a72becf.databases.neo4j.io"
+uri = ""
 username = "neo4j"
-password = "0kA9wNfzfqxvpu22_1FtB7POUU0lLPsCasF3xmyHFjg"
+password = ""
 
 driver = GraphDatabase.driver(uri, auth=(username, password))
 session = driver.session()
