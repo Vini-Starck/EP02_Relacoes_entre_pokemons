@@ -1,9 +1,9 @@
 from neo4j import GraphDatabase
 
 # Conexão com o Neo4j
-uri = "neo4j+s://3a72becf.databases.neo4j.io"  # URL de conexão
+uri = ""  # URL de conexão
 username = "neo4j"  # Usuário
-password = "0kA9wNfzfqxvpu22_1FtB7POUU0lLPsCasF3xmyHFjg"  # Senha
+password = ""  # Senha
 
 driver = GraphDatabase.driver(uri, auth=(username, password))
 session = driver.session()
