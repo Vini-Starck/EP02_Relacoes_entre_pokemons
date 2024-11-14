@@ -1,4 +1,4 @@
-Executar o scraper de pokemon (pokemon_spider.py) que armazena as informações do pokemon em pokemons.json
+Executar o scraper de pokemon (pokemon_spider.py) que armazena as informações dos pokemons da primeira geração apenas (caso contrario a inserção dos dados no Neo4J fica muito pesada) em pokemons.json
 
 Após o armazenamento, é possível executar o arquivo insert_pokemon_graph.py:
 
