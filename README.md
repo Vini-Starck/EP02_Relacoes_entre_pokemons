@@ -1,4 +1,4 @@
-Executar o scraper de pokemon que armazena as informações do pokemon em pokemons.json
+Executar o scraper de pokemon (pokemon_spider.py) que armazena as informações do pokemon em pokemons.json
 
 Após o armazenamento, é possível executar o arquivo insert_pokemon_graph.py:
 
